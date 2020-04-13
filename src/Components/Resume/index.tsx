@@ -15,9 +15,26 @@ const ResumeWrap = styled.div`
 const Grid = styled.div`
   display: grid;
   gap: 1em 1em;
-  grid-template-columns: 10em 25% 25% 25%;
+  grid-template-columns: 100%;
+  margin-bottom: 3em;
+
+  ${media.small`
+    grid-template-columns: 10em 25%;
+  `}
+  ${media.medium`
+    grid-template-columns: 10em repeat(2, 25%);
+  `}
+  ${media.large`
+    grid-template-columns: 10em repeat(3, 25%);
+  `}
 `;
 
+const HeaderGrid = styled(Grid)`
+  align-items: center;
+  margin-bottom: 5em;
+`;
+
+// tslint:disable: no-magic-numbers
 const PositionedCell = styled.div<IPositionedCell>`
   grid-column-start: ${({ position }) => position ? position : 'auto'};
   grid-column-end: span 1;
@@ -34,13 +51,23 @@ const PositionedCell = styled.div<IPositionedCell>`
     `}
   `}
 `;
+// tslint:enable: no-magic-numbers
 
 const Headline = styled.h1`
-
+  font-size: 4.2rem;
+  line-height: 3.6rem;
+  margin: 0;
 `;
 
-const Subhead = styled.h2`
+const Subhead = styled.h2``;
 
+const Link = styled.a`
+  font-style: italic;
+  color: ${({ theme: { link }}) => link.colorLink};
+
+  &:hover {
+    color: ${({ theme: { link }}) => link.colorLinkHover};
+  }
 `;
 
 const Section = styled.h3`
@@ -58,9 +85,15 @@ const Section = styled.h3`
   margin-top: -0.125em;
 `;
 
+const CellHeader = styled.h4`
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+`;
+
 const Resume: React.FC = () => (
   <ResumeWrap>
-    <Grid>
+    <HeaderGrid>
       <div>
         logo
       </div>
@@ -69,11 +102,11 @@ const Resume: React.FC = () => (
         <Subhead>Full-stack Javascript Engineer</Subhead>
       </PositionedCell>
       <div>
-        <p>hello@kevinfaherty.com</p>
-        <p>https://github.com/kfaherty</p>
-        <p>Chicago, IL</p>
+        <div>hello@kevinfaherty.com</div>
+        <Link href='https://github.com/kfaherty'>https://github.com/kfaherty</Link>
+        <div>Chicago, IL</div>
       </div>
-    </Grid>
+    </HeaderGrid>
     <Grid>
       <Section>Work Experience</Section>
       <p>Hello world</p>
@@ -85,24 +118,29 @@ const Resume: React.FC = () => (
     <Grid>
       <Section>Skills</Section>
       <div>
-        <span>Typescript / ESNext / React</span>
-        <span>WebSockets / GraphQL / REST</span>
-        <span>Node.JS / Express / PostgreSQL</span>
+        <div>Typescript / ESNext / React</div>
+        <div>WebSockets / GraphQL / REST</div>
+        <div>Node.JS / Express / PostgreSQL</div>
       </div>
       <div>
-        <span>PostCSS / SCSS / HTML5 / WCAG</span>
-        <span>Webpack / AWS / Jenkins / Grunt</span>
-        <span>Visual Regression / Snapshot Testing</span>
+        <div>PostCSS / SCSS / HTML5 / WCAG</div>
+        <div>Webpack / AWS / Jenkins / Grunt</div>
+        <div>Visual Regression / Snapshot Testing</div>
       </div>
       <div>
-        <span>Angular / Backbone / jQuery</span>
-        <span>Photoshop / Illustrator / InDesign</span>
-        <span>AfterEffects / Maya / Unity</span>
+        <div>Angular / Backbone / jQuery</div>
+        <div>Photoshop / Illustrator / InDesign</div>
+        <div>AfterEffects / Maya / Unity</div>
       </div>
     </Grid>
     <Grid>
       <Section>Education</Section>
-      <p>Hello world</p>
+      <PositionedCell span={2}>
+        <CellHeader>Milwaukee Institute of Art and Design</CellHeader>
+        <div>Bachelor of Fine Arts - Emphasis in Illustration</div>
+        <div>Milwaukee, WI</div>
+        <div>Graduated December 2013</div>
+      </PositionedCell>
     </Grid>
     <Grid>
       <Section>References</Section>

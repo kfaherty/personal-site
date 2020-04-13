@@ -1,9 +1,9 @@
-import * as styledComponents from 'styled-components';
+import { css, FlattenSimpleInterpolation, SimpleInterpolation } from 'styled-components';
 
 type MediaQueryBuild =
   (info: { minWidth: number }) =>
-    (strings: TemplateStringsArray, ...interpolations: styledComponents.SimpleInterpolation[]) =>
-      styledComponents.FlattenSimpleInterpolation;
+    (strings: TemplateStringsArray, ...interpolations: SimpleInterpolation[]) =>
+      FlattenSimpleInterpolation;
 
 export type VALID_BREAKPOINTS =
   | 'xsmall'
@@ -24,9 +24,9 @@ export const BreakPointsMap: { [key in VALID_BREAKPOINTS]: number } = {
   xxlarge: 90.01
 };
 
-const buildMediaQuery: MediaQueryBuild = info => (literals, ...placeholders) => styledComponents.css`
+const buildMediaQuery: MediaQueryBuild = info => (literals, ...placeholders) => css`
   @media (min-width: ${info.minWidth}em) {
-    ${styledComponents.css(literals, ...placeholders)}
+    ${css(literals, ...placeholders)}
   }
 `;
 
