@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "outDir": "dist",
+    "lib": ["es6", "dom", "dom.iterable", "esnext", "es2017.object"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedParameters": true,
+    "keyofStringsOnly": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noStrictGenericChecks": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "src/customTypings"
+    ],
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "tags": [
+          "Styled",
+          "css",
+          "extend",
+          "createGlobalStyle",
+          "keyframes",
+          "media"
+        ]
+      }
+    ],
+    "types": [
+      "jest",
+      "node",
+      "react",
+      "styled-components",
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "node_modules/**",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ]
+}

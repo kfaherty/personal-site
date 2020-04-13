@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: 'atten-new';
+  src: url('./AttenNew-Book.eot');
+  src:
+    url('./AttenNew-Book.eot?#iefix')
+    format('embedded-opentype'),
+    url('./AttenNew-Book.woff2') format('woff2'),
+    url('./AttenNew-Book.woff') format('woff'),
+    url('./AttenNew-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'atten-new';
+  src: url('./AttenNew-Bold.eot');
+  src:
+    url('./AttenNew-Bold.eot?#iefix')
+    format('embedded-opentype'),
+    url('./AttenNew-Bold.woff2') format('woff2'),
+    url('./AttenNew-Bold.woff') format('woff'),
+    url('./AttenNew-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
