@@ -1,5 +1,12 @@
 import * as React from 'react';
-import styled from 'styled-components';
+import { css, default as styled } from 'styled-components';
+
+import { media } from '../GlobalStyle/media';
+
+interface IPositionedCell {
+  position?: number;
+  span?: number;
+}
 
 const ResumeWrap = styled.div`
   margin: 3em;
@@ -11,8 +18,21 @@ const Grid = styled.div`
   grid-template-columns: 10em 25% 25% 25%;
 `;
 
-const Header = styled.div`
+const PositionedCell = styled.div<IPositionedCell>`
+  grid-column-start: ${({ position }) => position ? position : 'auto'};
+  grid-column-end: span 1;
 
+  ${({ span }) => span && css`
+    ${media.small`
+      grid-column-end: ${span > 2 ? 'span 2' : `span ${span}`};
+    `}
+    ${media.medium`
+      grid-column-end: ${span > 3 ? 'span 3' : `span ${span}`};
+    `}
+    ${media.large`
+      grid-column-end: ${span > 4 ? 'span 4' : `span ${span}`};
+    `}
+  `}
 `;
 
 const Headline = styled.h1`
@@ -44,10 +64,10 @@ const Resume: React.FC = () => (
       <div>
         logo
       </div>
-      <Header>
+      <PositionedCell span={2}>
         <Headline>Kevin Faherty</Headline>
         <Subhead>Full-stack Javascript Engineer</Subhead>
-      </Header>
+      </PositionedCell>
       <div>
         <p>hello@kevinfaherty.com</p>
         <p>https://github.com/kfaherty</p>
@@ -59,7 +79,7 @@ const Resume: React.FC = () => (
       <p>Hello world</p>
       <p>Hello world</p>
       <p>Hello world</p>
-      <p>Hello world</p>
+      <PositionedCell position={2}>Hello world</PositionedCell>
       <p>Hello world</p>
     </Grid>
     <Grid>
