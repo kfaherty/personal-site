@@ -31,7 +31,7 @@ const Grid = styled.div`
 
 const HeaderGrid = styled(Grid)`
   align-items: center;
-  margin-bottom: 5em;
+  margin: 5em 0;
 `;
 
 // tslint:disable: no-magic-numbers
@@ -109,11 +109,36 @@ const Resume: React.FC = () => (
     </HeaderGrid>
     <Grid>
       <Section>Work Experience</Section>
-      <p>Hello world</p>
-      <p>Hello world</p>
-      <p>Hello world</p>
-      <PositionedCell position={2}>Hello world</PositionedCell>
-      <p>Hello world</p>
+      <div>
+        <CellHeader>Software Engineering Lead</CellHeader>
+        <div>Amount - <Link href='amount.com'>amount.com</Link></div>
+        <div>Chicago, IL</div>
+        <div>October 2019 - Present</div>
+      </div>
+      <div>
+        <CellHeader>Software Engineer</CellHeader>
+        <div>Avant/Amount - <Link href='avant.com'>avant.com</Link></div>
+        <div>Chicago, IL</div>
+        <div>February 2018 - October 2019</div>
+      </div>
+      <div>
+        <CellHeader>Lead Javascript Developer</CellHeader>
+        <div>Riskbone - <Link href='leveltradingfield.com'>leveltradingfield.com</Link></div>
+        <div>Chicago, IL</div>
+        <div>March 2016 - October 2017</div>
+      </div>
+      <PositionedCell position={2}>
+        <CellHeader>Web Developer / Designer</CellHeader>
+        <div>Freelance</div>
+        <div>Milwaukee, WI</div>
+        <div>October 2015 - April 2016</div>
+      </PositionedCell>
+      <div>
+        <CellHeader>Graphic Designer</CellHeader>
+        <div>Radyne Corporation</div>
+        <div>Milwaukee, WI</div>
+        <div>February 2014 - October 2015</div>
+      </div>
     </Grid>
     <Grid>
       <Section>Skills</Section>
