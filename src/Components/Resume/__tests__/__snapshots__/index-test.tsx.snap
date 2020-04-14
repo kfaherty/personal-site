@@ -60,7 +60,7 @@ exports[`Resume Component matches snapshot 1`] = `
         Amount - 
         <a
           className="c5"
-          href="amount.com"
+          href="https://amount.com"
         >
           amount.com
         </a>
@@ -116,7 +116,7 @@ exports[`Resume Component matches snapshot 1`] = `
         Avant/Amount - 
         <a
           className="c5"
-          href="avant.com"
+          href="https://avant.com"
         >
           avant.com
         </a>
@@ -162,7 +162,7 @@ exports[`Resume Component matches snapshot 1`] = `
         Riskbone - 
         <a
           className="c5"
-          href="leveltradingfield.com"
+          href="https://leveltradingfield.com"
         >
           leveltradingfield.com
         </a>
@@ -294,14 +294,14 @@ exports[`Resume Component matches snapshot 1`] = `
         ArtHawk
       </h4>
       <div>
-        Artist Showcase Platform
+        Artist Showcase Platform - 
+        <a
+          className="c5"
+          href="https://art-hawk.com"
+        >
+          Website
+        </a>
       </div>
-      <a
-        className="c5"
-        href="https://art-hawk.com"
-      >
-        Website
-      </a>
       <div>
         2020
       </div>
@@ -327,14 +327,14 @@ exports[`Resume Component matches snapshot 1`] = `
         Squawk Chat
       </h4>
       <div>
-        Chat Client
+        Chat Client - 
+        <a
+          className="c5"
+          href="https://github.com/kfaherty/squawk-chat"
+        >
+          Github
+        </a>
       </div>
-      <a
-        className="c5"
-        href="https://github.com/kfaherty/squawk-chat"
-      >
-        Github
-      </a>
       <div>
         2018
       </div>
@@ -360,14 +360,14 @@ exports[`Resume Component matches snapshot 1`] = `
         Supervisitor
       </h4>
       <div>
-        Jam Game
+        Jam Game - 
+        <a
+          className="c5"
+          href="https://mattdonatelli.itch.io/supervisitor"
+        >
+          Website
+        </a>
       </div>
-      <a
-        className="c5"
-        href="https://mattdonatelli.itch.io/supervisitor"
-      >
-        Website
-      </a>
       <div>
         2017
       </div>
@@ -405,14 +405,14 @@ exports[`Resume Component matches snapshot 1`] = `
         TweetBox
       </h4>
       <div>
-        Twitter Client
+        Twitter Client - 
+        <a
+          className="c5"
+          href="https://github.com/kfaherty/tweets-react"
+        >
+          Github
+        </a>
       </div>
-      <a
-        className="c5"
-        href="https://github.com/kfaherty/tweets-react"
-      >
-        Github
-      </a>
       <div>
         2017
       </div>
@@ -438,14 +438,14 @@ exports[`Resume Component matches snapshot 1`] = `
         Our Forgotten Alphabet
       </h4>
       <div>
-        Arcade Game
+        Arcade Game - 
+        <a
+          className="c5"
+          href="https://github.com/kfaherty/ourforgottenalphabet"
+        >
+          Github
+        </a>
       </div>
-      <a
-        className="c5"
-        href="https://github.com/kfaherty/ourforgottenalphabet"
-      >
-        Github
-      </a>
       <div>
         2015
       </div>
@@ -470,66 +470,54 @@ exports[`Resume Component matches snapshot 1`] = `
   >
     Skills
   </h3>
-  <div
-    className="c7"
+  <ul
+    className="c11"
   >
-    <ul
-      className="c11"
+    <li
+      className="c12"
     >
-      <li
-        className="c12"
-      >
-        Typescript / ESNext / React
-      </li>
-      <li
-        className="c12"
-      >
-        WebSockets / GraphQL / REST
-      </li>
-      <li
-        className="c12"
-      >
-        Node.JS / Express / PostgreSQL
-      </li>
-    </ul>
-    <ul
-      className="c11"
+      Typescript / ESNext / React
+    </li>
+    <li
+      className="c12"
     >
-      <li
-        className="c12"
-      >
-        PostCSS / SCSS / HTML5 / WCAG
-      </li>
-      <li
-        className="c12"
-      >
-        Webpack / AWS / Jenkins / Grunt
-      </li>
-      <li
-        className="c12"
-      >
-        Visual Regression / Snapshot Testing
-      </li>
-    </ul>
-    <ul
-      className="c11"
+      WebSockets / GraphQL / REST
+    </li>
+    <li
+      className="c12"
     >
-      <li
-        className="c12"
-      >
-        Angular / Backbone / jQuery
-      </li>
-      <li
-        className="c12"
-      >
-        Photoshop / Illustrator / InDesign
-      </li>
-      <li
-        className="c12"
-      >
-        AfterEffects / Maya / Unity
-      </li>
-    </ul>
-  </div>
+      Node.JS / Express / PostgreSQL
+    </li>
+    <li
+      className="c12"
+    >
+      PostCSS / SCSS / HTML5 / WCAG
+    </li>
+    <li
+      className="c12"
+    >
+      Webpack / AWS / Jenkins / Grunt
+    </li>
+    <li
+      className="c12"
+    >
+      Visual Regression / Snapshot Testing
+    </li>
+    <li
+      className="c12"
+    >
+      Angular / Backbone / jQuery
+    </li>
+    <li
+      className="c12"
+    >
+      Photoshop / Illustrator / InDesign
+    </li>
+    <li
+      className="c12"
+    >
+      AfterEffects / Maya / Unity
+    </li>
+  </ul>
 </div>
 `;
