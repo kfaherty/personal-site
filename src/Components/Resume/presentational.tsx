@@ -27,8 +27,8 @@ export const Logo = styled.img`
 
 export const Grid = styled.div`
   display: grid;
-  gap: 1em 1em;
   grid-template-columns: 100%;
+  gap: 1em 1em;
 
   ${media.small`
     grid-template-columns: 100%;
