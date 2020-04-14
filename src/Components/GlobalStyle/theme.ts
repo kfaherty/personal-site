@@ -16,7 +16,7 @@ export const theme: DefaultTheme = {
     colorLinkHover: '#232525'
   },
   globalAnchorDecoration: 'underline',
-  outline: '4px dotted #232525'
+  outline: '1px dotted #232525'
 } as const;
 
 export type Theme = typeof theme;

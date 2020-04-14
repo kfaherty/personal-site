@@ -133,7 +133,7 @@ exports[`Resume Component matches snapshot 1`] = `
         <li
           className="c10"
         >
-          Front-end engineer responsible for crucial contributions to Avant/ Amount’s customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
+          Front-end engineer responsible for crucial contributions to Avant/Amount’s customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
         </li>
         <li
           className="c10"
@@ -264,7 +264,7 @@ exports[`Resume Component matches snapshot 1`] = `
         <li
           className="c10"
         >
-          Responsible for developing websites, product icons, animations, UI wireframes, product manuals/ guides, brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs.
+          Responsible for developing websites, product icons, animations, UI wireframes, product manuals/guides, brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs
         </li>
         <li
           className="c10"
@@ -275,6 +275,192 @@ exports[`Resume Component matches snapshot 1`] = `
           className="c10"
         >
           Created a distinct graphic identity for Radyne within brand standards
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h3
+    className="c6"
+  >
+    Projects
+  </h3>
+  <div
+    className="c7"
+  >
+    <div>
+      <h4
+        className="c8"
+      >
+        ArtHawk
+      </h4>
+      <div>
+        Artist Showcase Platform
+      </div>
+      <a
+        className="c5"
+        href="https://art-hawk.com"
+      >
+        Website
+      </a>
+      <div>
+        2020
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          An art showcase platform with built-in tools for freelance artists
+        </li>
+        <li
+          className="c10"
+        >
+          Features a global gallery for discovering new artists, comment threads, favorites, and a commission workflow for hiring freelance artists
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Squawk Chat
+      </h4>
+      <div>
+        Chat Client
+      </div>
+      <a
+        className="c5"
+        href="https://github.com/kfaherty/squawk-chat"
+      >
+        Github
+      </a>
+      <div>
+        2018
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          A chat client written in React that integrates with a third-party websocket API
+        </li>
+        <li
+          className="c10"
+        >
+          Features realtime chat messaging in private and public rooms, direct messages, animations, and more
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Supervisitor
+      </h4>
+      <div>
+        Jam Game
+      </div>
+      <a
+        className="c5"
+        href="https://mattdonatelli.itch.io/supervisitor"
+      >
+        Website
+      </a>
+      <div>
+        2017
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Supervisitor is a game made in 48 hours for the 
+          <a
+            className="c5"
+            href="https://itch.io/jam/bscotch100"
+          >
+            Butterscotch ShenaniJam
+          </a>
+           made in Unity using C# with Matt Donatelli and Zach Fendelman
+        </li>
+        <li
+          className="c10"
+        >
+          Contributed environment art, level design, lighting, and modeling
+        </li>
+        <li
+          className="c10"
+        >
+          Ranked #6 overall by user ratings out of 130 entries
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        TweetBox
+      </h4>
+      <div>
+        Twitter Client
+      </div>
+      <a
+        className="c5"
+        href="https://github.com/kfaherty/tweets-react"
+      >
+        Github
+      </a>
+      <div>
+        2017
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Twitter app that features oAuth authentication with Twitter, realtime streaming timelines, favorites, retweets, mentions, direct messages, profiles, search, and more
+        </li>
+        <li
+          className="c10"
+        >
+          Built using React, socket.io, and a Node backend
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Our Forgotten Alphabet
+      </h4>
+      <div>
+        Arcade Game
+      </div>
+      <a
+        className="c5"
+        href="https://github.com/kfaherty/ourforgottenalphabet"
+      >
+        Github
+      </a>
+      <div>
+        2015
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          A game about a comet drawing constellations, made in the Love2d framework using Lua
+        </li>
+        <li
+          className="c10"
+        >
+          Based on an unreleased game by Steph Thirion
         </li>
       </ul>
     </div>
@@ -344,46 +530,6 @@ exports[`Resume Component matches snapshot 1`] = `
         AfterEffects / Maya / Unity
       </li>
     </ul>
-  </div>
-  <h3
-    className="c6"
-  >
-    Education
-  </h3>
-  <div
-    className="c7"
-  >
-    <div
-      className="c3"
-      span={2}
-    >
-      <h4
-        className="c8"
-      >
-        Milwaukee Institute of Art and Design
-      </h4>
-      <div>
-        Bachelor of Fine Arts - Emphasis in Illustration
-      </div>
-      <div>
-        Milwaukee, WI
-      </div>
-      <div>
-        Graduated December 2013
-      </div>
-    </div>
-  </div>
-  <h3
-    className="c6"
-  >
-    References
-  </h3>
-  <div
-    className="c7"
-  >
-    <p>
-      Available on request
-    </p>
   </div>
 </div>
 `;

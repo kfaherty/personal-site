@@ -42,8 +42,8 @@ const WorkExperience: React.FC = () => (
       <div>February 2018 - October 2019</div>
       <ListBullet>
         <BulletElement>
-          Front-end engineer responsible for crucial contributions to Avant/
-          Amount’s customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
+          Front-end engineer responsible for crucial contributions to Avant/Amount’s
+          customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
         </BulletElement>
         <BulletElement>Overhauled styling pipeline to a themable component library with React Styled-Components</BulletElement>
         <BulletElement>Modernized CRM product to use Apollo GraphQL and Jest</BulletElement>
@@ -90,8 +90,8 @@ const WorkExperience: React.FC = () => (
       <ListBullet>
         <BulletElement>Independently designed marketing content in-house for print and web</BulletElement>
         <BulletElement>
-          Responsible for developing websites, product icons, animations, UI wireframes, product manuals/
-          guides, brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs.
+          Responsible for developing websites, product icons, animations, UI wireframes, product manuals/guides,
+          brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs
         </BulletElement>
         <BulletElement>Modernized the parent company’s branding guidelines</BulletElement>
         <BulletElement>Created a distinct graphic identity for Radyne within brand standards</BulletElement>
@@ -120,6 +120,74 @@ const Skills: React.FC = () => (
   </Grid>
 );
 
+const Projects: React.FC = () => (
+  <Grid>
+    <div>
+      <CellHeader>ArtHawk</CellHeader>
+      <div>Artist Showcase Platform</div>
+      <Link href='https://art-hawk.com'>Website</Link>
+      <div>2020</div>
+      <ListBullet>
+        <BulletElement>An art showcase platform with built-in tools for freelance artists</BulletElement>
+        <BulletElement>
+          Features a global gallery for discovering new artists, comment threads, favorites, and a commission workflow for hiring
+          freelance artists
+        </BulletElement>
+      </ListBullet>
+    </div>
+    <div>
+      <CellHeader>Squawk Chat</CellHeader>
+      <div>Chat Client</div>
+      <Link href='https://github.com/kfaherty/squawk-chat'>Github</Link>
+      <div>2018</div>
+      <ListBullet>
+        <BulletElement>A chat client written in React that integrates with a third-party websocket API</BulletElement>
+        <BulletElement>
+          Features realtime chat messaging in private and public rooms, direct messages, animations, and more
+        </BulletElement>
+      </ListBullet>
+    </div>
+    <div>
+      <CellHeader>Supervisitor</CellHeader>
+      <div>Jam Game</div>
+      <Link href='https://mattdonatelli.itch.io/supervisitor'>Website</Link>
+      <div>2017</div>
+      <ListBullet>
+        <BulletElement>
+          Supervisitor is a game made in 48 hours
+          for the <Link href='https://itch.io/jam/bscotch100'>Butterscotch ShenaniJam</Link> made
+          in Unity using C# with Matt Donatelli and Zach Fendelman
+        </BulletElement>
+        <BulletElement>Contributed environment art, level design, lighting, and modeling</BulletElement>
+        <BulletElement>Ranked #6 overall by user ratings out of 130 entries</BulletElement>
+      </ListBullet>
+    </div>
+    <div>
+      <CellHeader>TweetBox</CellHeader>
+      <div>Twitter Client</div>
+      <Link href='https://github.com/kfaherty/tweets-react'>Github</Link>
+      <div>2017</div>
+      <ListBullet>
+        <BulletElement>
+          Twitter app that features oAuth authentication with Twitter,
+          realtime streaming timelines, favorites, retweets, mentions, direct messages, profiles, search, and more
+        </BulletElement>
+        <BulletElement>Built using React, socket.io, and a Node backend</BulletElement>
+      </ListBullet>
+    </div>
+    <div>
+      <CellHeader>Our Forgotten Alphabet</CellHeader>
+      <div>Arcade Game</div>
+      <Link href='https://github.com/kfaherty/ourforgottenalphabet'>Github</Link>
+      <div>2015</div>
+      <ListBullet>
+        <BulletElement>A game about a comet drawing constellations, made in the Love2d framework using Lua</BulletElement>
+        <BulletElement>Based on an unreleased game by Steph Thirion</BulletElement>
+      </ListBullet>
+    </div>
+  </Grid>
+);
+
 const Resume: React.FC = () => (
   <ResumeWrap>
     <Logo
@@ -141,23 +209,11 @@ const Resume: React.FC = () => (
     <Section>Work Experience</Section>
     <WorkExperience />
 
+    <Section>Projects</Section>
+    <Projects />
+
     <Section>Skills</Section>
     <Skills />
-
-    <Section>Education</Section>
-    <Grid>
-      <PositionedCell span={2}>
-        <CellHeader>Milwaukee Institute of Art and Design</CellHeader>
-        <div>Bachelor of Fine Arts - Emphasis in Illustration</div>
-        <div>Milwaukee, WI</div>
-        <div>Graduated December 2013</div>
-      </PositionedCell>
-    </Grid>
-
-    <Section>References</Section>
-    <Grid>
-      <p>Available on request</p>
-    </Grid>
   </ResumeWrap>
 );
 
