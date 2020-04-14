@@ -9,21 +9,21 @@ import {
   HeaderGrid,
   Headline,
   Link,
-  List,
   ListBullet,
   ListElement,
   Logo,
   PositionedCell,
   ResumeWrap,
   Section,
-  Subhead
+  SkillGrid,
+  Subhead,
 } from './presentational';
 
 const WorkExperience: React.FC = () => (
   <Grid>
     <div>
       <CellHeader>Software Engineering Lead</CellHeader>
-      <div>Amount - <Link href='amount.com'>amount.com</Link></div>
+      <div>Amount - <Link href='https://amount.com'>amount.com</Link></div>
       <div>Chicago, IL</div>
       <div>October 2019 - Present</div>
       <ListBullet>
@@ -37,7 +37,7 @@ const WorkExperience: React.FC = () => (
     </div>
     <div>
       <CellHeader>Software Engineer</CellHeader>
-      <div>Avant/Amount - <Link href='avant.com'>avant.com</Link></div>
+      <div>Avant/Amount - <Link href='https://avant.com'>avant.com</Link></div>
       <div>Chicago, IL</div>
       <div>February 2018 - October 2019</div>
       <ListBullet>
@@ -52,7 +52,7 @@ const WorkExperience: React.FC = () => (
     </div>
     <div>
       <CellHeader>Lead Javascript Developer</CellHeader>
-      <div>Riskbone - <Link href='leveltradingfield.com'>leveltradingfield.com</Link></div>
+      <div>Riskbone - <Link href='https://leveltradingfield.com'>leveltradingfield.com</Link></div>
       <div>Chicago, IL</div>
       <div>March 2016 - October 2017</div>
       <ListBullet>
@@ -101,31 +101,24 @@ const WorkExperience: React.FC = () => (
 );
 
 const Skills: React.FC = () => (
-  <Grid>
-    <List>
+  <SkillGrid as='ul'>
       <ListElement>Typescript / ESNext / React</ListElement>
       <ListElement>WebSockets / GraphQL / REST</ListElement>
       <ListElement>Node.JS / Express / PostgreSQL</ListElement>
-    </List>
-    <List>
       <ListElement>PostCSS / SCSS / HTML5 / WCAG</ListElement>
       <ListElement>Webpack / AWS / Jenkins / Grunt</ListElement>
       <ListElement>Visual Regression / Snapshot Testing</ListElement>
-    </List>
-    <List>
       <ListElement>Angular / Backbone / jQuery</ListElement>
       <ListElement>Photoshop / Illustrator / InDesign</ListElement>
       <ListElement>AfterEffects / Maya / Unity</ListElement>
-    </List>
-  </Grid>
+  </SkillGrid>
 );
 
 const Projects: React.FC = () => (
   <Grid>
     <div>
       <CellHeader>ArtHawk</CellHeader>
-      <div>Artist Showcase Platform</div>
-      <Link href='https://art-hawk.com'>Website</Link>
+      <div>Artist Showcase Platform - <Link href='https://art-hawk.com'>Website</Link></div>
       <div>2020</div>
       <ListBullet>
         <BulletElement>An art showcase platform with built-in tools for freelance artists</BulletElement>
@@ -137,8 +130,7 @@ const Projects: React.FC = () => (
     </div>
     <div>
       <CellHeader>Squawk Chat</CellHeader>
-      <div>Chat Client</div>
-      <Link href='https://github.com/kfaherty/squawk-chat'>Github</Link>
+      <div>Chat Client - <Link href='https://github.com/kfaherty/squawk-chat'>Github</Link></div>
       <div>2018</div>
       <ListBullet>
         <BulletElement>A chat client written in React that integrates with a third-party websocket API</BulletElement>
@@ -149,8 +141,7 @@ const Projects: React.FC = () => (
     </div>
     <div>
       <CellHeader>Supervisitor</CellHeader>
-      <div>Jam Game</div>
-      <Link href='https://mattdonatelli.itch.io/supervisitor'>Website</Link>
+      <div>Jam Game - <Link href='https://mattdonatelli.itch.io/supervisitor'>Website</Link></div>
       <div>2017</div>
       <ListBullet>
         <BulletElement>
@@ -164,8 +155,7 @@ const Projects: React.FC = () => (
     </div>
     <div>
       <CellHeader>TweetBox</CellHeader>
-      <div>Twitter Client</div>
-      <Link href='https://github.com/kfaherty/tweets-react'>Github</Link>
+      <div>Twitter Client - <Link href='https://github.com/kfaherty/tweets-react'>Github</Link></div>
       <div>2017</div>
       <ListBullet>
         <BulletElement>
@@ -177,8 +167,7 @@ const Projects: React.FC = () => (
     </div>
     <div>
       <CellHeader>Our Forgotten Alphabet</CellHeader>
-      <div>Arcade Game</div>
-      <Link href='https://github.com/kfaherty/ourforgottenalphabet'>Github</Link>
+      <div>Arcade Game - <Link href='https://github.com/kfaherty/ourforgottenalphabet'>Github</Link></div>
       <div>2015</div>
       <ListBullet>
         <BulletElement>A game about a comet drawing constellations, made in the Love2d framework using Lua</BulletElement>

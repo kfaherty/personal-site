@@ -10,11 +10,12 @@ interface IPositionedCell {
 export const ResumeWrap = styled.div`
   margin: 5em 3em;
   display: grid;
-  gap: 5em 1em;
+  gap: 2.5em 1em;
   grid-template-columns: 100%;
   grid-template-rows: 8em auto;
 
   ${media.small`
+    gap: 5em 1em;
     grid-template-columns: 10em calc(100% - 10em);
   `}
 `;
@@ -26,8 +27,8 @@ export const Logo = styled.img`
 
 export const Grid = styled.div`
   display: grid;
-  gap: 1em 1em;
   grid-template-columns: 100%;
+  gap: 1em 1em;
 
   ${media.small`
     grid-template-columns: 100%;
@@ -42,6 +43,11 @@ export const Grid = styled.div`
 
 export const HeaderGrid = styled(Grid)`
   align-items: center;
+`;
+
+export const SkillGrid = styled(Grid)`
+  grid-template-rows: repeat(3, 1fr);
+  /* grid-auto-flow: column; */
 `;
 
 // tslint:disable: no-magic-numbers
@@ -104,22 +110,21 @@ export const CellHeader = styled.h4`
   line-height: 2.2rem;
 `;
 
-export const List = styled.ul`
+export const ListBullet = styled.ul`
   list-style: none;
   color: ${({ theme: { text } }) => text.colorText};
-`;
-
-export const ListBullet = styled(List)`
   margin: 1em 1.25em;
 `;
 
 export const ListElement = styled.li`
-  margin: 0 0 0.5em;
   position: relative;
+  list-style: none;
+  color: ${({ theme: { text } }) => text.colorText};
 `;
 
 export const BulletElement = styled(ListElement)`
   padding-left: 0.25em;
+  margin: 0 0 0.5em;
 
   &::before {
     content: '\\2022';
