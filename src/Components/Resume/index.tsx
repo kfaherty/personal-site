@@ -9,7 +9,9 @@ import {
   HeaderGrid,
   Headline,
   Link,
+  List,
   ListBullet,
+  ListElement,
   Logo,
   PositionedCell,
   ResumeWrap,
@@ -100,21 +102,21 @@ const WorkExperience: React.FC = () => (
 
 const Skills: React.FC = () => (
   <Grid>
-    <div>
-      <div>Typescript / ESNext / React</div>
-      <div>WebSockets / GraphQL / REST</div>
-      <div>Node.JS / Express / PostgreSQL</div>
-    </div>
-    <div>
-      <div>PostCSS / SCSS / HTML5 / WCAG</div>
-      <div>Webpack / AWS / Jenkins / Grunt</div>
-      <div>Visual Regression / Snapshot Testing</div>
-    </div>
-    <div>
-      <div>Angular / Backbone / jQuery</div>
-      <div>Photoshop / Illustrator / InDesign</div>
-      <div>AfterEffects / Maya / Unity</div>
-    </div>
+    <List>
+      <ListElement>Typescript / ESNext / React</ListElement>
+      <ListElement>WebSockets / GraphQL / REST</ListElement>
+      <ListElement>Node.JS / Express / PostgreSQL</ListElement>
+    </List>
+    <List>
+      <ListElement>PostCSS / SCSS / HTML5 / WCAG</ListElement>
+      <ListElement>Webpack / AWS / Jenkins / Grunt</ListElement>
+      <ListElement>Visual Regression / Snapshot Testing</ListElement>
+    </List>
+    <List>
+      <ListElement>Angular / Backbone / jQuery</ListElement>
+      <ListElement>Photoshop / Illustrator / InDesign</ListElement>
+      <ListElement>AfterEffects / Maya / Unity</ListElement>
+    </List>
   </Grid>
 );
 

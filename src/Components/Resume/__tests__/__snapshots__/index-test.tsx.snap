@@ -72,35 +72,35 @@ exports[`Resume Component matches snapshot 1`] = `
         October 2019 - Present
       </div>
       <ul
-        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
       >
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Lead developer on CRM and partner-facing applications
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Introduced API integrations with S3, Okta, Jira, and Ruby on Rails
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Developed front-end of point of sale and in-branch loan products using AWS Lambda and Serverless
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Created multi-tenant module framework for scaling Partner Portal
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Executed Amount brand redesign of partner-facing applications
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Performed extensive code review and mentoring of junior developers
         </li>
@@ -128,25 +128,25 @@ exports[`Resume Component matches snapshot 1`] = `
         February 2018 - October 2019
       </div>
       <ul
-        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
       >
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Front-end engineer responsible for crucial contributions to Avant/ Amount’s customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Overhauled styling pipeline to a themable component library with React Styled-Components
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Modernized CRM product to use Apollo GraphQL and Jest
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Developed customer dashboard for self-servicing of loan and credit card
         </li>
@@ -174,30 +174,30 @@ exports[`Resume Component matches snapshot 1`] = `
         March 2016 - October 2017
       </div>
       <ul
-        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
       >
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Front-end lead responsible for creating an online trading platform with Backbone, Socket.io, SCSS, jQuery UI, ZeroMQ, and Node.JS
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Managed four team members to meet development deadlines
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Built key application frameworks for authentication, payment processing, caching, pub-sub, and messaging
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Created desktop UI with workspaces
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Integrated with C++ API to render real-time market data, insert orders, and calculate PnL efficiently
         </li>
@@ -219,20 +219,20 @@ exports[`Resume Component matches snapshot 1`] = `
         October 2015 - April 2016
       </div>
       <ul
-        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
       >
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Freelanced on web projects requiring web/mobile design, responsive CSS layouts, seamless page transitions, templating, e- commerce, asynchronous loading, prototyping, SEO, content management systems, and more
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Commissioned as a designer to create illustrations, advertisements, brochures, posters, brand identities, icons, logos, and more
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Participated in the local community of freelance professionals
         </li>
@@ -254,25 +254,25 @@ exports[`Resume Component matches snapshot 1`] = `
         February 2014 - October 2015
       </div>
       <ul
-        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
       >
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Independently designed marketing content in-house for print and web
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Responsible for developing websites, product icons, animations, UI wireframes, product manuals/ guides, brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs.
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Modernized the parent company’s branding guidelines
         </li>
         <li
-          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
         >
           Created a distinct graphic identity for Radyne within brand standards
         </li>
@@ -287,39 +287,63 @@ exports[`Resume Component matches snapshot 1`] = `
   <div
     className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
   >
-    <div>
-      <div>
+    <ul
+      className="presentational__List-sc-1jwwq2a-10 lgMUAF"
+    >
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         Typescript / ESNext / React
-      </div>
-      <div>
+      </li>
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         WebSockets / GraphQL / REST
-      </div>
-      <div>
+      </li>
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         Node.JS / Express / PostgreSQL
-      </div>
-    </div>
-    <div>
-      <div>
+      </li>
+    </ul>
+    <ul
+      className="presentational__List-sc-1jwwq2a-10 lgMUAF"
+    >
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         PostCSS / SCSS / HTML5 / WCAG
-      </div>
-      <div>
+      </li>
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         Webpack / AWS / Jenkins / Grunt
-      </div>
-      <div>
+      </li>
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         Visual Regression / Snapshot Testing
-      </div>
-    </div>
-    <div>
-      <div>
+      </li>
+    </ul>
+    <ul
+      className="presentational__List-sc-1jwwq2a-10 lgMUAF"
+    >
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         Angular / Backbone / jQuery
-      </div>
-      <div>
+      </li>
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         Photoshop / Illustrator / InDesign
-      </div>
-      <div>
+      </li>
+      <li
+        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+      >
         AfterEffects / Maya / Unity
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
   <h3
     className="presentational__Section-sc-1jwwq2a-8 lhAXJs"

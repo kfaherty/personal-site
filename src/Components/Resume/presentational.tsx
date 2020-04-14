@@ -104,16 +104,22 @@ export const CellHeader = styled.h4`
   line-height: 2.2rem;
 `;
 
-export const ListBullet = styled.ul`
-  margin: 1em 1.25em;
+export const List = styled.ul`
   list-style: none;
   color: ${({ theme: { text } }) => text.colorText};
 `;
 
-export const BulletElement = styled.li`
-  padding-left: 0.25em;
+export const ListBullet = styled(List)`
+  margin: 1em 1.25em;
+`;
+
+export const ListElement = styled.li`
   margin: 0 0 0.5em;
   position: relative;
+`;
+
+export const BulletElement = styled(ListElement)`
+  padding-left: 0.25em;
 
   &::before {
     content: '\\2022';
