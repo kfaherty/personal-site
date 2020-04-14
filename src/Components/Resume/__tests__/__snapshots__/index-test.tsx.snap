@@ -42,6 +42,14 @@ exports[`Resume Component matches snapshot 1`] = `
       </div>
     </div>
   </div>
+  <div />
+  <div
+    className="c2"
+  >
+    <p>
+      Hey there! I'm Kevin Faherty, a web-developer and (game) artist. I like using technology to make the world a better place. I live & work in Chicago.
+    </p>
+  </div>
   <h3
     className="c6"
   >
@@ -294,13 +302,7 @@ exports[`Resume Component matches snapshot 1`] = `
         ArtHawk
       </h4>
       <div>
-        Artist Showcase Platform - 
-        <a
-          className="c5"
-          href="https://art-hawk.com"
-        >
-          Website
-        </a>
+        Artist Showcase Platform
       </div>
       <div>
         2020
