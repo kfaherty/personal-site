@@ -2,25 +2,27 @@
 
 exports[`Resume Component matches snapshot 1`] = `
 <div
-  className="Resume__ResumeWrap-sc-1rty91x-0 jAcTyg"
+  className="presentational__ResumeWrap-sc-1jwwq2a-0 iakIbR"
 >
+  <img
+    alt="logo"
+    className="presentational__Logo-sc-1jwwq2a-1 kUAUBw"
+    src="logo.jpg"
+  />
   <div
-    className="Resume__Grid-sc-1rty91x-1 Resume__HeaderGrid-sc-1rty91x-2 iSTNDu"
+    className="presentational__Grid-sc-1jwwq2a-2 presentational__HeaderGrid-sc-1jwwq2a-3 hZVClg"
   >
-    <div>
-      logo
-    </div>
     <div
-      className="Resume__PositionedCell-sc-1rty91x-3 cnbJVn"
+      className="presentational__PositionedCell-sc-1jwwq2a-4 bbaewt"
       span={2}
     >
       <h1
-        className="Resume__Headline-sc-1rty91x-4 jMsLbY"
+        className="presentational__Headline-sc-1jwwq2a-5 kMQdHo"
       >
         Kevin Faherty
       </h1>
       <h2
-        className="Resume__Subhead-sc-1rty91x-5 cqvuCM"
+        className="presentational__Subhead-sc-1jwwq2a-6 kOYkhe"
       >
         Full-stack Javascript Engineer
       </h2>
@@ -30,7 +32,7 @@ exports[`Resume Component matches snapshot 1`] = `
         hello@kevinfaherty.com
       </div>
       <a
-        className="Resume__Link-sc-1rty91x-6 bwaNjV"
+        className="presentational__Link-sc-1jwwq2a-7 ibouOx"
         href="https://github.com/kfaherty"
       >
         https://github.com/kfaherty
@@ -40,24 +42,24 @@ exports[`Resume Component matches snapshot 1`] = `
       </div>
     </div>
   </div>
-  <div
-    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  <h3
+    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
   >
-    <h3
-      className="Resume__Section-sc-1rty91x-7 khtmup"
-    >
-      Work Experience
-    </h3>
+    Work Experience
+  </h3>
+  <div
+    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+  >
     <div>
       <h4
-        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
       >
         Software Engineering Lead
       </h4>
       <div>
         Amount - 
         <a
-          className="Resume__Link-sc-1rty91x-6 bwaNjV"
+          className="presentational__Link-sc-1jwwq2a-7 ibouOx"
           href="amount.com"
         >
           amount.com
@@ -69,17 +71,51 @@ exports[`Resume Component matches snapshot 1`] = `
       <div>
         October 2019 - Present
       </div>
+      <ul
+        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+      >
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Lead developer on CRM and partner-facing applications
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Introduced API integrations with S3, Okta, Jira, and Ruby on Rails
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Developed front-end of point of sale and in-branch loan products using AWS Lambda and Serverless
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Created multi-tenant module framework for scaling Partner Portal
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Executed Amount brand redesign of partner-facing applications
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Performed extensive code review and mentoring of junior developers
+        </li>
+      </ul>
     </div>
     <div>
       <h4
-        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
       >
         Software Engineer
       </h4>
       <div>
         Avant/Amount - 
         <a
-          className="Resume__Link-sc-1rty91x-6 bwaNjV"
+          className="presentational__Link-sc-1jwwq2a-7 ibouOx"
           href="avant.com"
         >
           avant.com
@@ -91,17 +127,41 @@ exports[`Resume Component matches snapshot 1`] = `
       <div>
         February 2018 - October 2019
       </div>
+      <ul
+        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+      >
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Front-end engineer responsible for crucial contributions to Avant/ Amount’s customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Overhauled styling pipeline to a themable component library with React Styled-Components
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Modernized CRM product to use Apollo GraphQL and Jest
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Developed customer dashboard for self-servicing of loan and credit card
+        </li>
+      </ul>
     </div>
     <div>
       <h4
-        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
       >
         Lead Javascript Developer
       </h4>
       <div>
         Riskbone - 
         <a
-          className="Resume__Link-sc-1rty91x-6 bwaNjV"
+          className="presentational__Link-sc-1jwwq2a-7 ibouOx"
           href="leveltradingfield.com"
         >
           leveltradingfield.com
@@ -113,12 +173,39 @@ exports[`Resume Component matches snapshot 1`] = `
       <div>
         March 2016 - October 2017
       </div>
+      <ul
+        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+      >
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Front-end lead responsible for creating an online trading platform with Backbone, Socket.io, SCSS, jQuery UI, ZeroMQ, and Node.JS
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Managed four team members to meet development deadlines
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Built key application frameworks for authentication, payment processing, caching, pub-sub, and messaging
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Created desktop UI with workspaces
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Integrated with C++ API to render real-time market data, insert orders, and calculate PnL efficiently
+        </li>
+      </ul>
     </div>
-    <div
-      className="Resume__PositionedCell-sc-1rty91x-3 kFlzPU"
-    >
+    <div>
       <h4
-        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
       >
         Web Developer / Designer
       </h4>
@@ -131,10 +218,29 @@ exports[`Resume Component matches snapshot 1`] = `
       <div>
         October 2015 - April 2016
       </div>
+      <ul
+        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+      >
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Freelanced on web projects requiring web/mobile design, responsive CSS layouts, seamless page transitions, templating, e- commerce, asynchronous loading, prototyping, SEO, content management systems, and more
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Commissioned as a designer to create illustrations, advertisements, brochures, posters, brand identities, icons, logos, and more
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Participated in the local community of freelance professionals
+        </li>
+      </ul>
     </div>
     <div>
       <h4
-        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
       >
         Graphic Designer
       </h4>
@@ -147,16 +253,40 @@ exports[`Resume Component matches snapshot 1`] = `
       <div>
         February 2014 - October 2015
       </div>
+      <ul
+        className="presentational__ListBullet-sc-1jwwq2a-10 hZjQlB"
+      >
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Independently designed marketing content in-house for print and web
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Responsible for developing websites, product icons, animations, UI wireframes, product manuals/ guides, brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs.
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Modernized the parent company’s branding guidelines
+        </li>
+        <li
+          className="presentational__BulletElement-sc-1jwwq2a-11 eVaTQk"
+        >
+          Created a distinct graphic identity for Radyne within brand standards
+        </li>
+      </ul>
     </div>
   </div>
-  <div
-    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  <h3
+    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
   >
-    <h3
-      className="Resume__Section-sc-1rty91x-7 khtmup"
-    >
-      Skills
-    </h3>
+    Skills
+  </h3>
+  <div
+    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+  >
     <div>
       <div>
         Typescript / ESNext / React
@@ -191,20 +321,20 @@ exports[`Resume Component matches snapshot 1`] = `
       </div>
     </div>
   </div>
-  <div
-    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  <h3
+    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
   >
-    <h3
-      className="Resume__Section-sc-1rty91x-7 khtmup"
-    >
-      Education
-    </h3>
+    Education
+  </h3>
+  <div
+    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+  >
     <div
-      className="Resume__PositionedCell-sc-1rty91x-3 cnbJVn"
+      className="presentational__PositionedCell-sc-1jwwq2a-4 bbaewt"
       span={2}
     >
       <h4
-        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
       >
         Milwaukee Institute of Art and Design
       </h4>
@@ -219,14 +349,14 @@ exports[`Resume Component matches snapshot 1`] = `
       </div>
     </div>
   </div>
-  <div
-    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  <h3
+    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
   >
-    <h3
-      className="Resume__Section-sc-1rty91x-7 khtmup"
-    >
-      References
-    </h3>
+    References
+  </h3>
+  <div
+    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+  >
     <p>
       Available on request
     </p>
