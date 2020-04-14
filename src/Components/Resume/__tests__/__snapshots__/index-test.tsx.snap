@@ -2,27 +2,27 @@
 
 exports[`Resume Component matches snapshot 1`] = `
 <div
-  className="presentational__ResumeWrap-sc-1jwwq2a-0 iakIbR"
+  className="c0"
 >
   <img
     alt="logo"
-    className="presentational__Logo-sc-1jwwq2a-1 kUAUBw"
+    className="c1"
     src="logo.jpg"
   />
   <div
-    className="presentational__Grid-sc-1jwwq2a-2 presentational__HeaderGrid-sc-1jwwq2a-3 hZVClg"
+    className="c2"
   >
     <div
-      className="presentational__PositionedCell-sc-1jwwq2a-4 bbaewt"
+      className="c3"
       span={2}
     >
       <h1
-        className="presentational__Headline-sc-1jwwq2a-5 kMQdHo"
+        className="c4"
       >
         Kevin Faherty
       </h1>
       <h2
-        className="presentational__Subhead-sc-1jwwq2a-6 kOYkhe"
+        className=""
       >
         Full-stack Javascript Engineer
       </h2>
@@ -32,7 +32,7 @@ exports[`Resume Component matches snapshot 1`] = `
         hello@kevinfaherty.com
       </div>
       <a
-        className="presentational__Link-sc-1jwwq2a-7 ibouOx"
+        className="c5"
         href="https://github.com/kfaherty"
       >
         https://github.com/kfaherty
@@ -43,23 +43,23 @@ exports[`Resume Component matches snapshot 1`] = `
     </div>
   </div>
   <h3
-    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
+    className="c6"
   >
     Work Experience
   </h3>
   <div
-    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+    className="c7"
   >
     <div>
       <h4
-        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
+        className="c8"
       >
         Software Engineering Lead
       </h4>
       <div>
         Amount - 
         <a
-          className="presentational__Link-sc-1jwwq2a-7 ibouOx"
+          className="c5"
           href="amount.com"
         >
           amount.com
@@ -72,35 +72,35 @@ exports[`Resume Component matches snapshot 1`] = `
         October 2019 - Present
       </div>
       <ul
-        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
+        className="c9"
       >
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Lead developer on CRM and partner-facing applications
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Introduced API integrations with S3, Okta, Jira, and Ruby on Rails
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Developed front-end of point of sale and in-branch loan products using AWS Lambda and Serverless
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Created multi-tenant module framework for scaling Partner Portal
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Executed Amount brand redesign of partner-facing applications
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Performed extensive code review and mentoring of junior developers
         </li>
@@ -108,14 +108,14 @@ exports[`Resume Component matches snapshot 1`] = `
     </div>
     <div>
       <h4
-        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
+        className="c8"
       >
         Software Engineer
       </h4>
       <div>
         Avant/Amount - 
         <a
-          className="presentational__Link-sc-1jwwq2a-7 ibouOx"
+          className="c5"
           href="avant.com"
         >
           avant.com
@@ -128,25 +128,25 @@ exports[`Resume Component matches snapshot 1`] = `
         February 2018 - October 2019
       </div>
       <ul
-        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
+        className="c9"
       >
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Front-end engineer responsible for crucial contributions to Avant/ Amount’s customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Overhauled styling pipeline to a themable component library with React Styled-Components
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Modernized CRM product to use Apollo GraphQL and Jest
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Developed customer dashboard for self-servicing of loan and credit card
         </li>
@@ -154,14 +154,14 @@ exports[`Resume Component matches snapshot 1`] = `
     </div>
     <div>
       <h4
-        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
+        className="c8"
       >
         Lead Javascript Developer
       </h4>
       <div>
         Riskbone - 
         <a
-          className="presentational__Link-sc-1jwwq2a-7 ibouOx"
+          className="c5"
           href="leveltradingfield.com"
         >
           leveltradingfield.com
@@ -174,30 +174,30 @@ exports[`Resume Component matches snapshot 1`] = `
         March 2016 - October 2017
       </div>
       <ul
-        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
+        className="c9"
       >
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Front-end lead responsible for creating an online trading platform with Backbone, Socket.io, SCSS, jQuery UI, ZeroMQ, and Node.JS
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Managed four team members to meet development deadlines
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Built key application frameworks for authentication, payment processing, caching, pub-sub, and messaging
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Created desktop UI with workspaces
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Integrated with C++ API to render real-time market data, insert orders, and calculate PnL efficiently
         </li>
@@ -205,7 +205,7 @@ exports[`Resume Component matches snapshot 1`] = `
     </div>
     <div>
       <h4
-        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
+        className="c8"
       >
         Web Developer / Designer
       </h4>
@@ -219,20 +219,20 @@ exports[`Resume Component matches snapshot 1`] = `
         October 2015 - April 2016
       </div>
       <ul
-        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
+        className="c9"
       >
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Freelanced on web projects requiring web/mobile design, responsive CSS layouts, seamless page transitions, templating, e- commerce, asynchronous loading, prototyping, SEO, content management systems, and more
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Commissioned as a designer to create illustrations, advertisements, brochures, posters, brand identities, icons, logos, and more
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Participated in the local community of freelance professionals
         </li>
@@ -240,7 +240,7 @@ exports[`Resume Component matches snapshot 1`] = `
     </div>
     <div>
       <h4
-        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
+        className="c8"
       >
         Graphic Designer
       </h4>
@@ -254,25 +254,25 @@ exports[`Resume Component matches snapshot 1`] = `
         February 2014 - October 2015
       </div>
       <ul
-        className="presentational__List-sc-1jwwq2a-10 presentational__ListBullet-sc-1jwwq2a-11 dDiRj"
+        className="c9"
       >
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Independently designed marketing content in-house for print and web
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Responsible for developing websites, product icons, animations, UI wireframes, product manuals/ guides, brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs.
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Modernized the parent company’s branding guidelines
         </li>
         <li
-          className="presentational__ListElement-sc-1jwwq2a-12 presentational__BulletElement-sc-1jwwq2a-13 gpfxXp"
+          className="c10"
         >
           Created a distinct graphic identity for Radyne within brand standards
         </li>
@@ -280,85 +280,85 @@ exports[`Resume Component matches snapshot 1`] = `
     </div>
   </div>
   <h3
-    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
+    className="c6"
   >
     Skills
   </h3>
   <div
-    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+    className="c7"
   >
     <ul
-      className="presentational__List-sc-1jwwq2a-10 lgMUAF"
+      className="c11"
     >
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         Typescript / ESNext / React
       </li>
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         WebSockets / GraphQL / REST
       </li>
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         Node.JS / Express / PostgreSQL
       </li>
     </ul>
     <ul
-      className="presentational__List-sc-1jwwq2a-10 lgMUAF"
+      className="c11"
     >
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         PostCSS / SCSS / HTML5 / WCAG
       </li>
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         Webpack / AWS / Jenkins / Grunt
       </li>
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         Visual Regression / Snapshot Testing
       </li>
     </ul>
     <ul
-      className="presentational__List-sc-1jwwq2a-10 lgMUAF"
+      className="c11"
     >
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         Angular / Backbone / jQuery
       </li>
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         Photoshop / Illustrator / InDesign
       </li>
       <li
-        className="presentational__ListElement-sc-1jwwq2a-12 jPhwNz"
+        className="c12"
       >
         AfterEffects / Maya / Unity
       </li>
     </ul>
   </div>
   <h3
-    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
+    className="c6"
   >
     Education
   </h3>
   <div
-    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+    className="c7"
   >
     <div
-      className="presentational__PositionedCell-sc-1jwwq2a-4 bbaewt"
+      className="c3"
       span={2}
     >
       <h4
-        className="presentational__CellHeader-sc-1jwwq2a-9 hMMaXU"
+        className="c8"
       >
         Milwaukee Institute of Art and Design
       </h4>
@@ -374,12 +374,12 @@ exports[`Resume Component matches snapshot 1`] = `
     </div>
   </div>
   <h3
-    className="presentational__Section-sc-1jwwq2a-8 lhAXJs"
+    className="c6"
   >
     References
   </h3>
   <div
-    className="presentational__Grid-sc-1jwwq2a-2 eqrunv"
+    className="c7"
   >
     <p>
       Available on request
