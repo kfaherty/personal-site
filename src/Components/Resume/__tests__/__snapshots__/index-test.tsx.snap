@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume Component matches snapshot 1`] = `
+<div
+  className="Resume__ResumeWrap-sc-1rty91x-0 jAcTyg"
+>
+  <div
+    className="Resume__Grid-sc-1rty91x-1 Resume__HeaderGrid-sc-1rty91x-2 iSTNDu"
+  >
+    <div>
+      logo
+    </div>
+    <div
+      className="Resume__PositionedCell-sc-1rty91x-3 cnbJVn"
+      span={2}
+    >
+      <h1
+        className="Resume__Headline-sc-1rty91x-4 jMsLbY"
+      >
+        Kevin Faherty
+      </h1>
+      <h2
+        className="Resume__Subhead-sc-1rty91x-5 cqvuCM"
+      >
+        Full-stack Javascript Engineer
+      </h2>
+    </div>
+    <div>
+      <div>
+        hello@kevinfaherty.com
+      </div>
+      <a
+        className="Resume__Link-sc-1rty91x-6 bwaNjV"
+        href="https://github.com/kfaherty"
+      >
+        https://github.com/kfaherty
+      </a>
+      <div>
+        Chicago, IL
+      </div>
+    </div>
+  </div>
+  <div
+    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  >
+    <h3
+      className="Resume__Section-sc-1rty91x-7 khtmup"
+    >
+      Work Experience
+    </h3>
+    <div>
+      <h4
+        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+      >
+        Software Engineering Lead
+      </h4>
+      <div>
+        Amount - 
+        <a
+          className="Resume__Link-sc-1rty91x-6 bwaNjV"
+          href="amount.com"
+        >
+          amount.com
+        </a>
+      </div>
+      <div>
+        Chicago, IL
+      </div>
+      <div>
+        October 2019 - Present
+      </div>
+    </div>
+    <div>
+      <h4
+        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+      >
+        Software Engineer
+      </h4>
+      <div>
+        Avant/Amount - 
+        <a
+          className="Resume__Link-sc-1rty91x-6 bwaNjV"
+          href="avant.com"
+        >
+          avant.com
+        </a>
+      </div>
+      <div>
+        Chicago, IL
+      </div>
+      <div>
+        February 2018 - October 2019
+      </div>
+    </div>
+    <div>
+      <h4
+        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+      >
+        Lead Javascript Developer
+      </h4>
+      <div>
+        Riskbone - 
+        <a
+          className="Resume__Link-sc-1rty91x-6 bwaNjV"
+          href="leveltradingfield.com"
+        >
+          leveltradingfield.com
+        </a>
+      </div>
+      <div>
+        Chicago, IL
+      </div>
+      <div>
+        March 2016 - October 2017
+      </div>
+    </div>
+    <div
+      className="Resume__PositionedCell-sc-1rty91x-3 kFlzPU"
+    >
+      <h4
+        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+      >
+        Web Developer / Designer
+      </h4>
+      <div>
+        Freelance
+      </div>
+      <div>
+        Milwaukee, WI
+      </div>
+      <div>
+        October 2015 - April 2016
+      </div>
+    </div>
+    <div>
+      <h4
+        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+      >
+        Graphic Designer
+      </h4>
+      <div>
+        Radyne Corporation
+      </div>
+      <div>
+        Milwaukee, WI
+      </div>
+      <div>
+        February 2014 - October 2015
+      </div>
+    </div>
+  </div>
+  <div
+    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  >
+    <h3
+      className="Resume__Section-sc-1rty91x-7 khtmup"
+    >
+      Skills
+    </h3>
+    <div>
+      <div>
+        Typescript / ESNext / React
+      </div>
+      <div>
+        WebSockets / GraphQL / REST
+      </div>
+      <div>
+        Node.JS / Express / PostgreSQL
+      </div>
+    </div>
+    <div>
+      <div>
+        PostCSS / SCSS / HTML5 / WCAG
+      </div>
+      <div>
+        Webpack / AWS / Jenkins / Grunt
+      </div>
+      <div>
+        Visual Regression / Snapshot Testing
+      </div>
+    </div>
+    <div>
+      <div>
+        Angular / Backbone / jQuery
+      </div>
+      <div>
+        Photoshop / Illustrator / InDesign
+      </div>
+      <div>
+        AfterEffects / Maya / Unity
+      </div>
+    </div>
+  </div>
+  <div
+    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  >
+    <h3
+      className="Resume__Section-sc-1rty91x-7 khtmup"
+    >
+      Education
+    </h3>
+    <div
+      className="Resume__PositionedCell-sc-1rty91x-3 cnbJVn"
+      span={2}
+    >
+      <h4
+        className="Resume__CellHeader-sc-1rty91x-8 fMYZeM"
+      >
+        Milwaukee Institute of Art and Design
+      </h4>
+      <div>
+        Bachelor of Fine Arts - Emphasis in Illustration
+      </div>
+      <div>
+        Milwaukee, WI
+      </div>
+      <div>
+        Graduated December 2013
+      </div>
+    </div>
+  </div>
+  <div
+    className="Resume__Grid-sc-1rty91x-1 fcvNFN"
+  >
+    <h3
+      className="Resume__Section-sc-1rty91x-7 khtmup"
+    >
+      References
+    </h3>
+    <p>
+      Available on request
+    </p>
+  </div>
+</div>
+`;

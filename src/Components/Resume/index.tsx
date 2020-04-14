@@ -91,6 +91,26 @@ const CellHeader = styled.h4`
   line-height: 2.2rem;
 `;
 
+const ListBullet = styled.ul`
+  margin: 1em 1.25em;
+  list-style: none;
+  color: ${({ theme: { text } }) => text.colorText};
+`;
+
+const BulletElement = styled.li`
+  padding-left: 0.25em;
+  margin: 0 0 0.5em;
+  position: relative;
+
+  &::before {
+    content: '\\2022';
+    position: absolute;
+    color: ${({ theme }) => theme.text.colorText};
+    left: -0.75em;
+    font-size: 2.5rem;
+  }
+`;
+
 const Resume: React.FC = () => (
   <ResumeWrap>
     <HeaderGrid>
