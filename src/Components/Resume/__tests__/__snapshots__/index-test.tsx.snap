@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resume Component matches snapshot 1`] = `
+<div
+  className="c0"
+>
+  <img
+    alt="logo"
+    className="c1"
+    src="logo.jpg"
+  />
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      span={2}
+    >
+      <h1
+        className="c4"
+      >
+        Kevin Faherty
+      </h1>
+      <h2
+        className=""
+      >
+        Full-stack Javascript Engineer
+      </h2>
+    </div>
+    <div>
+      <div>
+        hello@kevinfaherty.com
+      </div>
+      <a
+        className="c5"
+        href="https://github.com/kfaherty"
+      >
+        https://github.com/kfaherty
+      </a>
+      <div>
+        Chicago, IL
+      </div>
+    </div>
+  </div>
+  <h3
+    className="c6"
+  >
+    Work Experience
+  </h3>
+  <div
+    className="c7"
+  >
+    <div>
+      <h4
+        className="c8"
+      >
+        Software Engineering Lead
+      </h4>
+      <div>
+        Amount - 
+        <a
+          className="c5"
+          href="amount.com"
+        >
+          amount.com
+        </a>
+      </div>
+      <div>
+        Chicago, IL
+      </div>
+      <div>
+        October 2019 - Present
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Lead developer on CRM and partner-facing applications
+        </li>
+        <li
+          className="c10"
+        >
+          Introduced API integrations with S3, Okta, Jira, and Ruby on Rails
+        </li>
+        <li
+          className="c10"
+        >
+          Developed front-end of point of sale and in-branch loan products using AWS Lambda and Serverless
+        </li>
+        <li
+          className="c10"
+        >
+          Created multi-tenant module framework for scaling Partner Portal
+        </li>
+        <li
+          className="c10"
+        >
+          Executed Amount brand redesign of partner-facing applications
+        </li>
+        <li
+          className="c10"
+        >
+          Performed extensive code review and mentoring of junior developers
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Software Engineer
+      </h4>
+      <div>
+        Avant/Amount - 
+        <a
+          className="c5"
+          href="avant.com"
+        >
+          avant.com
+        </a>
+      </div>
+      <div>
+        Chicago, IL
+      </div>
+      <div>
+        February 2018 - October 2019
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Front-end engineer responsible for crucial contributions to Avant/Amount’s customer and partner facing front-end applications built with Typescript, React, Redux, Node.JS, and GraphQL.
+        </li>
+        <li
+          className="c10"
+        >
+          Overhauled styling pipeline to a themable component library with React Styled-Components
+        </li>
+        <li
+          className="c10"
+        >
+          Modernized CRM product to use Apollo GraphQL and Jest
+        </li>
+        <li
+          className="c10"
+        >
+          Developed customer dashboard for self-servicing of loan and credit card
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Lead Javascript Developer
+      </h4>
+      <div>
+        Riskbone - 
+        <a
+          className="c5"
+          href="leveltradingfield.com"
+        >
+          leveltradingfield.com
+        </a>
+      </div>
+      <div>
+        Chicago, IL
+      </div>
+      <div>
+        March 2016 - October 2017
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Front-end lead responsible for creating an online trading platform with Backbone, Socket.io, SCSS, jQuery UI, ZeroMQ, and Node.JS
+        </li>
+        <li
+          className="c10"
+        >
+          Managed four team members to meet development deadlines
+        </li>
+        <li
+          className="c10"
+        >
+          Built key application frameworks for authentication, payment processing, caching, pub-sub, and messaging
+        </li>
+        <li
+          className="c10"
+        >
+          Created desktop UI with workspaces
+        </li>
+        <li
+          className="c10"
+        >
+          Integrated with C++ API to render real-time market data, insert orders, and calculate PnL efficiently
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Web Developer / Designer
+      </h4>
+      <div>
+        Freelance
+      </div>
+      <div>
+        Milwaukee, WI
+      </div>
+      <div>
+        October 2015 - April 2016
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Freelanced on web projects requiring web/mobile design, responsive CSS layouts, seamless page transitions, templating, e- commerce, asynchronous loading, prototyping, SEO, content management systems, and more
+        </li>
+        <li
+          className="c10"
+        >
+          Commissioned as a designer to create illustrations, advertisements, brochures, posters, brand identities, icons, logos, and more
+        </li>
+        <li
+          className="c10"
+        >
+          Participated in the local community of freelance professionals
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Graphic Designer
+      </h4>
+      <div>
+        Radyne Corporation
+      </div>
+      <div>
+        Milwaukee, WI
+      </div>
+      <div>
+        February 2014 - October 2015
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Independently designed marketing content in-house for print and web
+        </li>
+        <li
+          className="c10"
+        >
+          Responsible for developing websites, product icons, animations, UI wireframes, product manuals/guides, brochures and catalogs, advertisements, video and photography content, email templates, and exhibition designs
+        </li>
+        <li
+          className="c10"
+        >
+          Modernized the parent company’s branding guidelines
+        </li>
+        <li
+          className="c10"
+        >
+          Created a distinct graphic identity for Radyne within brand standards
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h3
+    className="c6"
+  >
+    Projects
+  </h3>
+  <div
+    className="c7"
+  >
+    <div>
+      <h4
+        className="c8"
+      >
+        ArtHawk
+      </h4>
+      <div>
+        Artist Showcase Platform
+      </div>
+      <a
+        className="c5"
+        href="https://art-hawk.com"
+      >
+        Website
+      </a>
+      <div>
+        2020
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          An art showcase platform with built-in tools for freelance artists
+        </li>
+        <li
+          className="c10"
+        >
+          Features a global gallery for discovering new artists, comment threads, favorites, and a commission workflow for hiring freelance artists
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Squawk Chat
+      </h4>
+      <div>
+        Chat Client
+      </div>
+      <a
+        className="c5"
+        href="https://github.com/kfaherty/squawk-chat"
+      >
+        Github
+      </a>
+      <div>
+        2018
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          A chat client written in React that integrates with a third-party websocket API
+        </li>
+        <li
+          className="c10"
+        >
+          Features realtime chat messaging in private and public rooms, direct messages, animations, and more
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Supervisitor
+      </h4>
+      <div>
+        Jam Game
+      </div>
+      <a
+        className="c5"
+        href="https://mattdonatelli.itch.io/supervisitor"
+      >
+        Website
+      </a>
+      <div>
+        2017
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Supervisitor is a game made in 48 hours for the 
+          <a
+            className="c5"
+            href="https://itch.io/jam/bscotch100"
+          >
+            Butterscotch ShenaniJam
+          </a>
+           made in Unity using C# with Matt Donatelli and Zach Fendelman
+        </li>
+        <li
+          className="c10"
+        >
+          Contributed environment art, level design, lighting, and modeling
+        </li>
+        <li
+          className="c10"
+        >
+          Ranked #6 overall by user ratings out of 130 entries
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        TweetBox
+      </h4>
+      <div>
+        Twitter Client
+      </div>
+      <a
+        className="c5"
+        href="https://github.com/kfaherty/tweets-react"
+      >
+        Github
+      </a>
+      <div>
+        2017
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          Twitter app that features oAuth authentication with Twitter, realtime streaming timelines, favorites, retweets, mentions, direct messages, profiles, search, and more
+        </li>
+        <li
+          className="c10"
+        >
+          Built using React, socket.io, and a Node backend
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4
+        className="c8"
+      >
+        Our Forgotten Alphabet
+      </h4>
+      <div>
+        Arcade Game
+      </div>
+      <a
+        className="c5"
+        href="https://github.com/kfaherty/ourforgottenalphabet"
+      >
+        Github
+      </a>
+      <div>
+        2015
+      </div>
+      <ul
+        className="c9"
+      >
+        <li
+          className="c10"
+        >
+          A game about a comet drawing constellations, made in the Love2d framework using Lua
+        </li>
+        <li
+          className="c10"
+        >
+          Based on an unreleased game by Steph Thirion
+        </li>
+      </ul>
+    </div>
+  </div>
+  <h3
+    className="c6"
+  >
+    Skills
+  </h3>
+  <div
+    className="c7"
+  >
+    <ul
+      className="c11"
+    >
+      <li
+        className="c12"
+      >
+        Typescript / ESNext / React
+      </li>
+      <li
+        className="c12"
+      >
+        WebSockets / GraphQL / REST
+      </li>
+      <li
+        className="c12"
+      >
+        Node.JS / Express / PostgreSQL
+      </li>
+    </ul>
+    <ul
+      className="c11"
+    >
+      <li
+        className="c12"
+      >
+        PostCSS / SCSS / HTML5 / WCAG
+      </li>
+      <li
+        className="c12"
+      >
+        Webpack / AWS / Jenkins / Grunt
+      </li>
+      <li
+        className="c12"
+      >
+        Visual Regression / Snapshot Testing
+      </li>
+    </ul>
+    <ul
+      className="c11"
+    >
+      <li
+        className="c12"
+      >
+        Angular / Backbone / jQuery
+      </li>
+      <li
+        className="c12"
+      >
+        Photoshop / Illustrator / InDesign
+      </li>
+      <li
+        className="c12"
+      >
+        AfterEffects / Maya / Unity
+      </li>
+    </ul>
+  </div>
+</div>
+`;

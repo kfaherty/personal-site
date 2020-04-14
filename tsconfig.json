@@ -48,7 +48,7 @@
     ]
   },
   "include": [
-    "src"
+    "src", "config/jest/styled-components"
   ],
   "exclude": [
     "node_modules",
