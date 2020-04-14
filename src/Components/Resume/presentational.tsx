@@ -16,12 +16,13 @@ export const ResumeWrap = styled.div`
 
   ${media.small`
     gap: 5em 1em;
-    grid-template-columns: 10em calc(100% - 10em);
+    grid-template-columns: 10em calc(100% - 11em);
   `}
 `;
 
 export const Logo = styled.img`
-  align-items: center;
+  display: flex;
+  justify-self: flex-end;
   height: 8em;
 `;
 

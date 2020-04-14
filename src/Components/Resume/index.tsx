@@ -118,7 +118,9 @@ const Projects: React.FC = () => (
   <Grid>
     <div>
       <CellHeader>ArtHawk</CellHeader>
-      <div>Artist Showcase Platform - <Link href='https://art-hawk.com'>Website</Link></div>
+      <div>Artist Showcase Platform
+        {/*- <Link href='https://art-hawk.com'>Website</Link> */}
+      </div>
       <div>2020</div>
       <ListBullet>
         <BulletElement>An art showcase platform with built-in tools for freelance artists</BulletElement>
@@ -177,8 +179,8 @@ const Projects: React.FC = () => (
   </Grid>
 );
 
-const Resume: React.FC = () => (
-  <ResumeWrap>
+const Header: React.FC = () => (
+  <>
     <Logo
       src={logo}
       alt='logo'
@@ -194,6 +196,26 @@ const Resume: React.FC = () => (
         <div>Chicago, IL</div>
       </div>
     </HeaderGrid>
+  </>
+);
+
+const Bio: React.FC = () => (
+  <>
+    <div />
+    <HeaderGrid>
+      <p>
+        Hey there! I'm Kevin Faherty, a web-developer and (game) artist.
+        I like using technology to make the world a better place. I live &amp; work in Chicago.
+      </p>
+    </HeaderGrid>
+  </>
+);
+
+const Resume: React.FC = () => (
+  <ResumeWrap>
+    <Header />
+
+    <Bio />
 
     <Section>Work Experience</Section>
     <WorkExperience />
