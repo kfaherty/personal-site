@@ -204,7 +204,7 @@ const Bio: React.FC = () => (
     <div />
     <HeaderGrid>
       <p>
-        Hey there! I'm Kevin Faherty, a web-developer and (game) artist.
+        Hey there! I'm Kevin Faherty, a web-developer &amp; artist.
         I like using technology to make the world a better place. I live &amp; work in Chicago.
       </p>
     </HeaderGrid>

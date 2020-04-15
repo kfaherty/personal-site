@@ -22,8 +22,11 @@ export const ResumeWrap = styled.div`
 
 export const Logo = styled.img`
   display: flex;
-  justify-self: flex-end;
   height: 8em;
+
+  ${media.small`
+    justify-self: flex-end;
+  `}
 `;
 
 export const Grid = styled.div`
