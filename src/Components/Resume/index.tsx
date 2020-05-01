@@ -118,12 +118,12 @@ const Projects: React.FC = () => (
   <Grid>
     <div>
       <CellHeader>ArtHawk</CellHeader>
-      <div>Artist Showcase Platform
+      <div>Artist showcase platform
         {/*- <Link href='https://art-hawk.com'>Website</Link> */}
       </div>
       <div>2020</div>
       <ListBullet>
-        <BulletElement>An art showcase platform with built-in tools for freelance artists</BulletElement>
+        <BulletElement>An art showcase platform with built-in tools for freelance artists to run a business</BulletElement>
         <BulletElement>
           Features a global gallery for discovering new artists, comment threads, favorites, and a commission workflow for hiring
           freelance artists
@@ -131,8 +131,19 @@ const Projects: React.FC = () => (
       </ListBullet>
     </div>
     <div>
+      <CellHeader>Hero's Playbook</CellHeader>
+      <div>Cloud character sheets for tabletop games</div>
+      <div>2020</div>
+      <ListBullet>
+        <BulletElement>A lightweight tabletop framework for easily building character sheets for any rpg</BulletElement>
+        <BulletElement>
+          Features designing character sheet templates, creating characters from templates, and joining campaigns
+        </BulletElement>
+      </ListBullet>
+    </div>
+    <div>
       <CellHeader>Squawk Chat</CellHeader>
-      <div>Chat Client - <Link href='https://github.com/kfaherty/squawk-chat'>Github</Link></div>
+      <div>Chat client - <Link href='https://github.com/kfaherty/squawk-chat'>Github</Link></div>
       <div>2018</div>
       <ListBullet>
         <BulletElement>A chat client written in React that integrates with a third-party websocket API</BulletElement>
@@ -142,22 +153,8 @@ const Projects: React.FC = () => (
       </ListBullet>
     </div>
     <div>
-      <CellHeader>Supervisitor</CellHeader>
-      <div>Jam Game - <Link href='https://mattdonatelli.itch.io/supervisitor'>Website</Link></div>
-      <div>2017</div>
-      <ListBullet>
-        <BulletElement>
-          Supervisitor is a game made in 48 hours
-          for the <Link href='https://itch.io/jam/bscotch100'>Butterscotch ShenaniJam</Link> made
-          in Unity using C# with Matt Donatelli and Zach Fendelman
-        </BulletElement>
-        <BulletElement>Contributed environment art, level design, lighting, and modeling</BulletElement>
-        <BulletElement>Ranked #6 overall by user ratings out of 130 entries</BulletElement>
-      </ListBullet>
-    </div>
-    <div>
       <CellHeader>TweetBox</CellHeader>
-      <div>Twitter Client - <Link href='https://github.com/kfaherty/tweets-react'>Github</Link></div>
+      <div>Twitter client - <Link href='https://github.com/kfaherty/tweets-react'>Github</Link></div>
       <div>2017</div>
       <ListBullet>
         <BulletElement>
@@ -168,12 +165,17 @@ const Projects: React.FC = () => (
       </ListBullet>
     </div>
     <div>
-      <CellHeader>Our Forgotten Alphabet</CellHeader>
-      <div>Arcade Game - <Link href='https://github.com/kfaherty/ourforgottenalphabet'>Github</Link></div>
-      <div>2015</div>
+      <CellHeader>Supervisitor</CellHeader>
+      <div>Jam game - <Link href='https://mattdonatelli.itch.io/supervisitor'>Website</Link></div>
+      <div>2017</div>
       <ListBullet>
-        <BulletElement>A game about a comet drawing constellations, made in the Love2d framework using Lua</BulletElement>
-        <BulletElement>Based on an unreleased game by Steph Thirion</BulletElement>
+        <BulletElement>
+          Supervisitor is a game made in 48 hours
+          for the <Link href='https://itch.io/jam/bscotch100'>Butterscotch ShenaniJam</Link> made
+          in Unity using C# with Matt Donatelli and Zach Fendelman
+        </BulletElement>
+        <BulletElement>Contributed environment art, level design, lighting, and modeling</BulletElement>
+        <BulletElement>Ranked #6 overall by user ratings out of 130 entries</BulletElement>
       </ListBullet>
     </div>
   </Grid>
@@ -211,6 +213,13 @@ const Bio: React.FC = () => (
   </>
 );
 
+const Download: React.FC = () => (
+  <>
+    <div />
+    <a href='/resume-kevin-faherty.pdf'>resume (PDF)</a>
+  </>
+);
+
 const Resume: React.FC = () => (
   <ResumeWrap>
     <Header />
@@ -225,6 +234,7 @@ const Resume: React.FC = () => (
 
     <Section>Skills</Section>
     <Skills />
+    <Download />
   </ResumeWrap>
 );
 
