@@ -132,10 +132,10 @@ const Projects: React.FC = () => (
     </div>
     <div>
       <CellHeader>Hero's Playbook</CellHeader>
-      <div>Cloud character sheets for tabletop games</div>
+      <div>Cloud character sheets</div>
       <div>2020</div>
       <ListBullet>
-        <BulletElement>A lightweight tabletop framework for easily building character sheets for any rpg</BulletElement>
+        <BulletElement>A lightweight tabletop framework for easily building character sheets for any tabletop rpg game</BulletElement>
         <BulletElement>
           Features designing character sheet templates, creating characters from templates, and joining campaigns
         </BulletElement>
